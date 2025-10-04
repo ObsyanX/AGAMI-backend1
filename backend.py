@@ -1038,4 +1038,5 @@ if __name__ == '__main__':
     logger.info("=" * 60)
     
     # Run Flask server
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    # ==================== RUN SERVER ====================
+    app.run(debug=True, host='0.0.0.0', port=os.environ.get('PORT', 5000))
