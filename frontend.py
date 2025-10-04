@@ -13,7 +13,7 @@ import plotly.graph_objects as go
 
 # Configuration
 st.set_page_config(
-    page_title="KMRL AI Induction Planning",
+    page_title="AGAMI : AI-Driven Governance for Automated Metro Induction",
     page_icon="🚆",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -146,7 +146,7 @@ def delete_train(train_id):
 # Main App
 def main():
     # Header
-    st.markdown('<div class="main-header">🚆 KMRL AI-Driven Train Induction Planning</div>', 
+    st.markdown('<div class="main-header">🚆 AGAMI : AI-Driven Governance for Automated Metro Induction</div>', 
                 unsafe_allow_html=True)
     st.markdown("**Smart India Hackathon 2025** | Kochi Metro Rail Limited")
     
