@@ -1036,7 +1036,9 @@ if __name__ == '__main__':
     logger.info(f"Fleet size: {len(registry.get_all_trains())} trains")
     logger.info(f"PuLP optimization: {'Available' if PULP_AVAILABLE else 'Not available (using heuristic)'}")
     logger.info("=" * 60)
-    
+    logger.info("=" * 60)
+    logger.info("STARTING LOCAL DEVELOPMENT SERVER")
+    logger.info("=" * 60)
     # Run Flask server
     # ==================== RUN SERVER ====================
     app.run(debug=True, host='0.0.0.0', port=os.environ.get('PORT', 5000))
