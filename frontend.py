@@ -23,7 +23,7 @@ st.set_page_config(
 try:
     API_BASE_URL = st.secrets.get("API_URL", "https://agami-backend1.onrender.com")
 except:
-    API_BASE_URL = "http://localhost:5000
+    API_BASE_URL = "http://localhost:5000"
 
 # Custom CSS
 st.markdown("""
