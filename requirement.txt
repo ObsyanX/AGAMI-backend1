@@ -7,7 +7,6 @@ flask
 flask_cors
 logging
 pickle
-pandas
 numpy
 scikit-learn
 pulp
