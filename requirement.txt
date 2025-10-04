@@ -1,12 +1,9 @@
 plotly
-pandas 
 requests
 streamlit
-datetime
 flask
 flask_cors
-logging
-pickle
+pandas
 numpy
 scikit-learn
 pulp
